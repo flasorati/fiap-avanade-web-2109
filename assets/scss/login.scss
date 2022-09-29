@@ -1,0 +1,48 @@
+.full-banner-form {
+    height: 100vh;
+    background: url("../images/c6 bank/hero-c6.webp") no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    //height: calc(100vh - 100px); //q é o tamanho do scroll - tam do header
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   // background: #dddcda;
+    .container-login {
+        width: 400px;
+        height: 40vh;
+        display: flex;
+        background-color:#fff;
+        border-radius: 3%;
+          
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            }
+            label {
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                
+                input {
+                    width: 100%;
+                }
+            }
+            p {
+                margin: 0;
+                
+            }
+        }
+    }
+
+
+@media (min-width: 1280px){
+        section.full-banner{
+        background: url("../images/c6 bank/hero-bgc6.webp") no-repeat;
+        background-size: cover;  
+}
+}

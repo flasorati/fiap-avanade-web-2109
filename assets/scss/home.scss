@@ -1,4 +1,5 @@
 header{
+    transition-duration: 0.5s;
     position: fixed;
     top: 0;
     z-index: 100;
@@ -26,6 +27,10 @@ header{
 
         }
     }
+}
+
+header.footer-link-a > nav > ul li a {
+    color: #fff;
 }
 section.full-banner {
     width: 100%;
@@ -68,13 +73,13 @@ section.full-banner {
     color: #242424;
 }
 
-.button-disabled {
+button.disabled {
     background: none;
     border: solid 0.5px rgba(36,36,36,0.8);
 }
 
-.button-disabled:hover {  //ao passar o mouse por cima do botão
-    background: rgba(36,36,36,0.8);
+button.disabled:hover {  //ao passar o mouse por cima do botão
+    background: rgba(36,36,36,0.2);
 }
 
 button{
@@ -84,6 +89,7 @@ button{
     border-radius: 25px;
     border: none;
     text-transform: uppercase;
+    
 }
 
 button:hover{
@@ -100,7 +106,6 @@ button:hover{
     border-radius: 25px;
     padding: 0 3%;
     font-weight: bold;
-
 }
 @media (min-width: 1280px){
     section.full-banner{
